@@ -10,6 +10,8 @@
 #### [registry安装](documents/deploy/docker/registry.md)
 #### [jenkins安装](documents/deploy/docker/jenkins.md)
 #### [maven构建](documents/deploy/docker/maven.md)
+### web配置
+#### [端口配置](documents/deploy/web/ports.md)
 
 
 
