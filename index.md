@@ -1,4 +1,6 @@
 # lubanmall
+##设计
+###[项目设计](documents/design/index.md)
 ## 部署
 ### 数据库
 #### [mysql安装](documents/deploy/db/mysql.md)
