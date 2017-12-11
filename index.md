@@ -5,7 +5,7 @@
 分两台机器
 ###部署机 4G内存
 ###### potainer
-###### jenkins，为了加快构建，配置了regiter.lubanresearch.com的host
+###### jenkins，为了加快构建，配置了lubanresearch.com的host
 ###### service
 ###### ui
 ###前端机 2G内存
