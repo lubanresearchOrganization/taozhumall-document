@@ -2,6 +2,14 @@
 ##设计
 ###[项目设计](documents/design/index.md)
 ## 部署
+分两台机器
+###部署机 4G内存
+###### potainer
+###### jenkins，为了加快构建，配置了regiter.lubanresearch.com的host
+###### service
+###### ui
+###前端机 2G内存
+###### nginxserver
 ### 数据库
 #### [mysql安装](documents/deploy/db/mysql.md)
 ### docker
