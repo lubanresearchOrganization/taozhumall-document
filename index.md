@@ -1,7 +1,7 @@
 # lubanmall
 ##设计
 ###[项目设计](documents/design/index.md)
-####【数据库表设计】(documents/design/dbdesign.md)
+####[数据库表设计](documents/design/dbdesign.md)
 ## 部署
 分两台机器
 ###部署机 4G内存
