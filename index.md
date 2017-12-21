@@ -4,7 +4,7 @@
 ### [数据库表设计](documents/design/dbdesign.md)
 ### 技术选型
 #### spring cloud
-#### axon https://www.zybuluo.com/iamfox/note/93864
+#### axon https://www.zybuluo.com/iamfox/note/93864 http://www.axonframework.org
 ## 部署
 分两台机器
 ### 部署机 4G内存
