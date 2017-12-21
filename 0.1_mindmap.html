@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="go.js"></script>
+
+</head>
+<body>
+<div id="myDiagramDiv"
+     style="width:1500px; height:700px;"></div>
+<textarea id="mySavedModel" style="display: none;">{ "class": "go.TreeModel",
+    "nodeDataArray": [
+{"key":"b2c系统"},
+{"key":"子系统", "parent":"b2c系统"},
+{"key":"基础服务", "parent":"b2c系统"}
+ ]
+}
+  </textarea>
+
+
+<script>
+    var $ = go.GraphObject.make;
+
+    myDiagram =
+        $(go.Diagram, "myDiagramDiv",
+            {
+                // when the user drags a node, also move/copy/delete the whole subtree starting with that node
+                initialContentAlignment: go.Spot.Center,  // center the whole graph
+                "undoManager.isEnabled": true,
+                layout: $(go.TreeLayout, // specify a Diagram.layout that arranges trees
+                    { angle: 90, layerSpacing: 35 })
+            });
+
+
+
+    // read in the predefined graph using the JSON format data held in the "mySavedModel" textarea
+    myDiagram.model = go.Model.fromJson(document.getElementById("mySavedModel").value);
+</script>
+</body>
+</html>

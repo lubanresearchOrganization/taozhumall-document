@@ -1,7 +1,10 @@
 # lubanmall
 ## 设计
 ### [项目设计](documents/design/index.md)
-#### [数据库表设计](documents/design/dbdesign.md)
+### [数据库表设计](documents/design/dbdesign.md)
+### 技术选型
+#### spring cloud
+#### axon https://www.zybuluo.com/iamfox/note/93864
 ## 部署
 分两台机器
 ### 部署机 4G内存
@@ -22,7 +25,7 @@
 ### web配置
 #### [端口配置](documents/deploy/web/ports.md)
 #### [nginx](documents/deploy/web/nginx.md)
-#### [测试页面](a.html)
+#### [测试页面](0.1_mindmap.html)
 
 
 
