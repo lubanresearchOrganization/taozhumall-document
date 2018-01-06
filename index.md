@@ -8,7 +8,7 @@
 ## 部署
 分两台机器
 ### 部署机 4G内存
-###### potainer
+###### [potainer启动](documents/deploy/docker/potainer.md)
 ###### jenkins，为了加快构建，配置了lubanresearch.com的host
 ###### service
 ###### ui
