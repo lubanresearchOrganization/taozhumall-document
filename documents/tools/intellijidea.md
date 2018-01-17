@@ -8,11 +8,11 @@
        -ea
        -server
        -Xverify:none
-       -Xms8000m
-       -Xmx8000m
-       -XX:MaxPermSize=256m
+       -Xms2000m
+       -Xmx4000m
+       -XX:MaxPermSize=1000m
        -XX:NewRatio=4
-       -Xss128k
+       -Xss1m
        -XX:+UseParallelGC
        -XX:ParallelGCThreads=2
        -XX:+UseAdaptiveSizePolicy
@@ -21,13 +21,6 @@
        -XX:+AggressiveOpts
        -Dsun.awt.keepWorkingSetOnMinimize=true
        -Djava.awt.im.style=on-the-spot
-       -XX:+UseConcMarkSweepGC
-       -XX:+CMSParallelRemarkEnabled
-       -XX:ConcGCThreads=4
-       -XX:ReservedCodeCacheSize=240m
-       -XX:+AlwaysPreTouch
-       -XX:+TieredCompilation
-       -XX:+UseCompressedOops
        -XX:SoftRefLRUPolicyMSPerMB=50
        -Dsun.io.useCanonCaches=false
        -Djava.net.preferIPv4Stack=true
@@ -36,6 +29,12 @@
        -XX:-OmitStackTraceInFastThrow
        -Dawt.useSystemAAFontSettings=lcd
        -Dsun.java2d.renderer=sun.java2d.marlin.MarlinRenderingEngine
+       -XX:ReservedCodeCacheSize=240m
+       -XX:+AlwaysPreTouch
+       -XX:+TieredCompilation
+       -XX:+UseCompressedOops
+       -XX:+CMSParallelRemarkEnabled
+       -XX:ConcGCThreads=4
        ```            
    5. ide和jvm以及代码、maven库都确保在电脑上较快的盘上面比如ssd上面
 2. 关闭杀毒软件
