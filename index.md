@@ -25,7 +25,7 @@
 ### web配置
 #### [端口配置](documents/deploy/web/ports.md)
 #### [nginx](documents/deploy/web/nginx.md)
-#### [测试页面](0.1_mindmap.html)
+#### [intellij idea优化的一些样例配置](documents/tools/intellijidea.md)
 
 
 
