@@ -2,7 +2,7 @@ jenkins
 
 拉取镜像
 ```
-docker pull jenkins:2.60.3`
+docker pull jenkins:2.60.3
 ```
 创建目录
 ```
