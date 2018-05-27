@@ -16,6 +16,7 @@ mysql -u root -p
 ###### 执行mysql命令,创建密码为admin的账户，赋予比较大的权限(这里权限以及账户密码可以自行设置,%表示不限制客户端的ip，这里可以限定ip)
 mysql>create user 'admin'@'%' IDENTIFIED BY 'admin';
      >GRANT ALL on *.* TO 'admin'@'%';
+      上面的语句如果遇到问题可以先执行 flush privileges;
 ###### 编辑my.cnf
 vim /etc/my.cnf
 在mysqld下面去除刚刚加的那一行skip-grant-tables
