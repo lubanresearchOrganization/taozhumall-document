@@ -37,7 +37,8 @@ mysql -u root -p
  ```
 在mysqld下面去除刚刚加的那一行skip-grant-tables
 ###### 重启mysql
- ```service mysqld restart
+ ```
+ service mysqld restart
 ```
 ###### mysql可以使用了
 
