@@ -30,13 +30,15 @@ mysql -u root -p
  mysql>create user 'admin'@'%' IDENTIFIED BY 'admin';
      >GRANT ALL on *.* TO 'admin'@'%';
  ```
+ 上面的语句如果遇到问题可以先执行 flush privileges;
 ###### 编辑my.cnf
- ``` 
+ ```
  vim /etc/my.cnf
  ```
 在mysqld下面去除刚刚加的那一行skip-grant-tables
 ###### 重启mysql
- ```service mysqld restart
+ ```
+ service mysqld restart
 ```
 ###### mysql可以使用了
 
