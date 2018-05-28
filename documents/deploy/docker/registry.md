@@ -10,3 +10,4 @@ docker run -d -p 5000:5000 -v /opt/data/registry:/var/lib/registry registry
     "insecure-registries" : [ "registry.lubanresearch.com:5000" ]
 }
 ```
+在各个机器都配置registry.lubanresearch.com的dns或者hosts指向这台机器
