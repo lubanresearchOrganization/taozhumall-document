@@ -15,7 +15,7 @@ docker run -d -u root -p 7080:8080 -p 50000:50000 --env JAVA_OPTS="-Dpermissive-
 ```
 到/opt/data/jenkins_home/secrets目录下，查看密码
 ```
-cat initialAdminPassword
+cat /opt/data/jenkins_home/secrets/initialAdminPassword
 ```
 用这个密码登录jeckins
 设置密码用户均为admin
