@@ -9,7 +9,7 @@ sudo rpm -ivh mysql57-community-release-el7-11.noarch.rpm
 ```
 ###### 安装mysql-server
 ```
-yum install mysql-community-server
+yum install -y mysql-community-server
 ```
 ###### 编辑my.cnf
 ```
